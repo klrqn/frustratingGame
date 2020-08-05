@@ -1,0 +1,13 @@
+#! python3
+# keeps you busy for hours, game
+
+import pyinputplus as pyip
+
+while True:
+    prompt = 'want to know how to keep an idiot busy for hours?\n'
+    response = pyip.inputYesNo(prompt)
+    if response == 'no':
+        break
+
+
+
